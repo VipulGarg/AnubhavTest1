@@ -12,15 +12,16 @@
             android:id="@+id/lblTitle" android:layout_gravity="center_horizontal"
             android:textStyle="bold" android:gravity="center" android:layout_weight="0.10"
             android:background="#01A9DB"/>
-    <TextView
+    <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Restaurants"
             android:id="@+id/lblCatRestaurants" android:layout_gravity="center_horizontal" android:layout_weight="0.45"
             android:textStyle="bold" android:gravity="center" android:textSize="30dp" android:background="#00BFFF"/>
-    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="More"
-              android:id="@+id/lblCatMore" android:layout_gravity="center_horizontal"
-              android:layout_weight="0.45" android:textStyle="bold" android:gravity="center" android:textSize="30dp"
-              android:background="#2ECCFA"/>
+    <Button
+            android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="More"
+            android:layout_weight="0.45" android:textStyle="bold" android:gravity="center" android:textSize="30dp"
+            android:id="@+id/lblCatMore" android:layout_gravity="center_horizontal"
+            android:background="#2ECCFA"/>
 </LinearLayout>
 
